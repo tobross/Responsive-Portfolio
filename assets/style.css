@@ -1,0 +1,246 @@
+#contact {
+    font-size: 22px;
+    float: right;
+    color: #d6d9de;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#portfolio {
+    font-size: 22px;
+    float: right;
+    color: #d6d9de;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#about {
+    font-size: 22px;
+    float: right;
+    color: #d6d9de;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    float: left;
+    margin-left: 25%;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 0px;
+    border: 2px solid #d6d9de;
+    border-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#detailBox {
+    background-image: url("../images/escheresque_ste.png");
+    width: 105%;
+    margin-left: -10px;
+    color: #063f1b;
+    margin-top: 0px;
+    border-top: solid;
+    border-color: #d6d9de;
+    border-width: 2px;
+    min-height: calc(100vh - 50px);
+    margin-right: 0;
+}
+
+#aboutMePhoto {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid;
+    border-width: 5px;
+    border-color: #4681b7;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 30vw;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    background-color: #666666;
+    padding: 20px;
+    margin-left: -10px;
+    text-align: center;
+    border-top: solid;
+    border-width: 5px;
+    border-color: #4aaaa5;
+    margin-top: -16px;
+    width: 103%;
+    height: 50px;
+}
+
+footer span {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 3px solid #d6d9de
+}
+
+a {
+    text-decoration: none;
+    color: #d6d9de;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #d6d9de;
+}
+
+body {
+    background-color: #666666;
+    width: 95%;
+}
+
+#messageBox {
+    height: 200px;
+    width: 80%;
+}
+
+#emailform {
+    margin-left: 25%;
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#greyline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 5px;
+    color: #d6d8de;
+}
+
+#stuffInside {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #ffffff;
+}
+
+#contactInside {
+    margin-left: 200px;
+    margin-right: 100px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+
+portfolioButton {
+    background-color: #4aaaa5;
+    padding: 20px;
+}
+
+.container {
+    float: left;
+    margin: 5px;
+    position: relative;
+    text-align: center;
+    color: black;
+    border: solid 2px black;
+}
+
+#stuffInsidep {
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #ffffff;
+    min-height: 750px;
+}
+
+.game {
+    position: absolute;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 10px;
+    display: inline-block;
+    width: 90%;
+    border: solid 2px black;
+}
+
+.portpic {
+    height: 200px;
+    width: 200px;
+}
+
+p {
+    margin: 5px 10px 20px 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #stuffInsidep {
+        margin-left: 5%;
+        margin-right: 5%;
+        min-height: 760px;
+    }
+    #stuffInside {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1 {
+        margin-left: 3%;
+        padding: 25px;
+        margin-top: -20px;
+    }
+    #contact {
+        margin-top: 20px;
+    }
+    #portfolio {
+        margin-top: 20px;
+    }
+    #about {
+        margin-top: 20px;
+    }
+    .portpic {
+        width: 300px;
+    }
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #contact {
+        font-size: 15px;
+    }
+    #portfolio {
+        font-size: 15px;
+    }
+    #about {
+        font-size: 15px;
+    }
+    .portpic {
+        width: 225px;
+        height: 150px;
+    }
+    footer {
+        height: 10px;
+    }
+    #stuffInsidep {
+        min-height: 625px;
+    }
+}
